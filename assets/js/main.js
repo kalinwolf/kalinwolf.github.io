@@ -55,7 +55,7 @@
         msg + "\n\n" +
         "Sent from: https://kalinwolf.github.io/"
       );
-      const to = "hello@liquidrai.com"; // placeholder; replace if you have a real inbox
+      const to = "liquidrai@outlook.com"; // placeholder; replace if you have a real inbox
       window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
       showToast("Opening your email client…");
     });
